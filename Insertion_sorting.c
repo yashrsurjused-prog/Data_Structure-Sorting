@@ -23,7 +23,7 @@ int main() {
         // Step 4: Shift elements greater than key to the right
         while(i >= 0 && A[i] > key) {
             A[i + 1] = A[i]; // Move element one step to the right
-            i--;             // Move left
+            i=i-1;             // Move left
         }
 
         // Step 5: Place key at correct position
